@@ -3,7 +3,7 @@ import {
   ArrowRightIcon,
   CheckIcon,
   Code2Icon,
-  SparklesIcon,
+  SquareDashedBottomCode,
   UsersIcon,
   VideoIcon,
   ZapIcon,
@@ -22,14 +22,14 @@ function HomePage() {
             className="flex items-center gap-3 hover:scale-105 transition-transform duration-200"
           >
             <div className="size-10 rounded-xl bg-gradient-to-br from-primary via-secondary to-accent flex items-center justify-center shadow-lg">
-              <SparklesIcon className="size-6 text-white" />
+              <SquareDashedBottomCode className="size-6 text-white" />
             </div>
 
             <div className="flex flex-col">
               <span className="font-black text-xl bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent font-mono tracking-wider">
-                Talent IQ
+                CodexLive
               </span>
-              <span className="text-xs text-base-content/60 font-medium -mt-1">Code Together</span>
+              <span className="text-xs text-base-content/60 font-medium -mt-1">Solve Together</span>
             </div>
           </Link>
 
@@ -55,7 +55,7 @@ function HomePage() {
 
             <h1 className="text-5xl lg:text-7xl font-black leading-tight">
               <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-                Code Together,
+                Solve Together,
               </span>
               <br />
               <span className="text-base-content">Learn Together</span>
